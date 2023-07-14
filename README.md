@@ -15,3 +15,5 @@ Found 1 error in 1 file (checked 1 source file)
 Using async/await gets rid of the error, but it feels weird that the 
 [official example](https://docs.prefect.io/2.10.21/concepts/deployments/#create-a-deployment-from-a-python-object)  
 gives an error on mypy.
+
+**Note** that prefect runs fine, there are no issues with deployment. This issue only affects linter.
